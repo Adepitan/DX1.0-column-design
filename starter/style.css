@@ -24,14 +24,14 @@ body{
 }
 .first-leftdiv{
     width: 50%;
-    height: 460px;
+    height: 100%;
     background: var(--gray-color);
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
 }
 .first-rightdiv{
-    height: 460px;
+    height: 100%;
     /* using colour as a background: */
     /* background: var(--main-color); */
     /* background: linear-gradient(to right, #f46b45, #eea849); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -78,6 +78,7 @@ span{
     /* height: 300px; */
     /* borrder:va(--blackborder); */
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 30px 0;
@@ -103,6 +104,7 @@ margin: 20px;
 
     }
     .thirdsec{
+        
         display: flex;
         justify-content: center;
         /* border: var(--blackborder); */
